@@ -19,11 +19,11 @@ Redirection to  different site
     like prompt() , print()
     
 ## Payloads Used 
-1)<img/src/onerror=prompt(8)> 
+1) <img/src/onerror=prompt(8)> 
 
-2)<img src/onerror=prompt(8)>
+2) <img src/onerror=prompt(8)>
 
-4)<img src=q onerror=location.href = "https://www.example.com";>
+3) <img src=q onerror=location.href = "https://www.example.com";>
 
 # Impact 
 
